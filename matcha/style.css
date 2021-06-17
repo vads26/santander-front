@@ -19,12 +19,6 @@ body{
     background-color: #fffbf7;
 }
 
-.header {
-    margin: 40px 20px 0 20px;
-    font-size: 0;
-    line-height: 45px;
-  }
-
 li{
     display: inline;
 }
@@ -41,14 +35,47 @@ li{
     width: 15%;
 }
 
-.navbar{
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+  }
+  
+  .navbar {
     width: 70%;
-    text-align: left;
-    color: green;
-}
-
-.actions{
+    text-align: center;
+    color: #025157;
+  }
+  
+  .item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
+  .actions {
     width: 15%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
-}
+  }
+  
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .btn {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
