@@ -43,12 +43,12 @@ li{
 
 .navbar{
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: green;
 }
 
 .actions{
     width: 15%;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
 }
