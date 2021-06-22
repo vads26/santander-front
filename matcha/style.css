@@ -83,7 +83,7 @@ li{
   /* style Article */
 
   .publish {
-    /* background-color: blue; */
+    margin-left: 20px;
   }
   
   .publish h3 {
@@ -107,4 +107,30 @@ li{
   .publish > form p {
     color: #025157;
     margin-right: 18px;
+  }
+
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+  .fixed-header{
+    position:fixed;
+    background-color: white;
+    top:0;
+    left: 0;
+    right: 0;
   }
