@@ -134,3 +134,156 @@ li{
     left: 0;
     right: 0;
   }
+
+  .box {
+    display: flex;
+    align-items: flex-start;
+    background-color: #a1d683;
+  }
+
+  .card-img-text{
+    background-color: white;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+
+  .card-text{
+    color: green;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+  }
+
+  .colorText{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+  }
+
+  .colorTitle{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #025157;;
+    margin-left: 20px;
+  }
+
+  .divBtn{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .divBtn1{
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .btnWho {
+    color: white;
+    background-color:#025157;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .btnSee {
+    color: white;
+    background-color:#025157;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  .cardIcon{
+    flex: 0 0 40px;
+    margin-left: 20px;
+  }
+
+  .cardIcon > img{
+    width: 70%;
+  }
+
+  .cardtext {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 19px;
+      letter-spacing: -.5px;
+      color: #828282;
+      margin-right: 20px;
+  }
+
+  .cardH{
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-top: 20px;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+  }
+
+  .title-home{
+    font-family: "vesterbroextrabold", "Arial", "sans-serif";
+    line-height: 63px;
+    font-size: 68px;
+    text-align: left;
+    color: #025157;
+  }
+
+  .card-text-body{
+    font-size: 28px;
+    text-align: left;
+    color: black;
+  }
+
+  .card-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .card-img-doble{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+  }
+  
+  .card-img-float{
+    position: relative;
+    bottom: -220px;
+    left: 120px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f9da73;
+  }
+
+  .card-img-float > img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    max-width: 76%;
+    width: 100%;
+    display: block;
+  }
