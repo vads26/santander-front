@@ -350,3 +350,59 @@ li{
   margin-top: 0;
   height: 50%;
 }
+
+.section-Work{
+  background-color: #fffbf7;
+padding: 5% 10%;
+text-align: center;
+}
+
+.steps{
+  margin-top: 70px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-step{
+  background-color: #fff;
+border: 1px solid #dadada;
+border-radius: 5px;
+margin-left: 20px;
+margin-right: 20px;
+text-align: left;
+}
+
+.card-step-image{
+  position: relative;
+  height: 350px;
+}
+
+.card-step-body{
+  padding: 25px;
+}
+
+.card-step-1{
+  width: 100%;
+height: 100%;
+}
+
+.card-icon{
+  position: absolute;
+top: 25px;
+left: 25px;
+width: 21px;
+}
+
+.title-step{
+  color: #025157;
+font-size: 50px;
+line-height: 60px;
+font-weight: 400;
+font-family: "Alegreya", serif;
+margin-bottom: 8px;
+}
+
+a{
+  color: #67b54b;
+text-decoration: none;
+}
