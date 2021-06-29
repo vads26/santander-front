@@ -10,6 +10,11 @@ p{
     color: #8b8b8bcc;
 }
 
+main {
+  margin-top: 300px;
+  text-align: center;
+}
+
 button{
     color: #fff;
     background-color: #025157;
@@ -405,4 +410,79 @@ margin-bottom: 8px;
 a{
   color: #67b54b;
 text-decoration: none;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > input {
+    width: 65%;
+  }  
+
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video{
+    width: 100%;
+  }
+
+  .publish{
+    margin-top: 10px;
+  }
+
+  .publish > h3{
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .features{
+    grid-template: repeat(4,1fr) / 1fr;
+    height: 1500px;
+  }
+
+  .feature-image{
+    display: none;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
